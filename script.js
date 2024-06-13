@@ -37,13 +37,29 @@
 
 // Checking day and night//
 
-let timeCheck = +prompt("Enter time for Checking Day and Night");
+// let timeCheck = +prompt("Enter time for Checking Day and Night");
 
 
-if(!(timeCheck >=7 && timeCheck <19)  ){
-    alert("Then its Night Time!");
+// if(!(timeCheck >=7 && timeCheck <19)  ){
+//     alert("Then its Night Time!");
+// }
+
+// else{
+//     alert("Then its Day Time!");
+// }
+
+
+
+//  Login Access //
+
+
+let userName = prompt("Enter you Name here!");
+let password = prompt("Enter you password here!");
+
+if(userName==="Qasim" || password===123){
+    alert("You are Login !");
 }
 
 else{
-    alert("Then its Day Time!");
+    alert("Invalid Information");
 }
