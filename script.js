@@ -1,4 +1,4 @@
-// checking age Egibility //
+//************************  Task 01: checking age Egibility *************************//
 
 
 
@@ -18,7 +18,10 @@
 // } 
 
 
-// Cheking for Even and odd Numbers//
+
+
+
+//************************ Task 02: Cheking for Even and odd Numbers***************************//
 
 
 // let num = +prompt("Enter the Number you want!")
@@ -35,7 +38,7 @@
 
 
 
-// Checking day and night//
+// ************************ Task 03:  Checking day and night*******************************//
 
 // let timeCheck = +prompt("Enter time for Checking Day and Night");
 
@@ -50,16 +53,41 @@
 
 
 
-//  Login Access //
 
 
-let userName = prompt("Enter you Name here!");
-let password = prompt("Enter you password here!");
 
-if(userName==="Qasim" || password===123){
-    alert("You are Login !");
-}
 
-else{
-    alert("Invalid Information");
-}
+// *************** Task 04: Login Access*************************** //
+
+
+// let userName = prompt("Enter you Name here!");
+// let password = prompt("Enter you password here!");
+
+// if(userName==="Qasim" || password===123){
+//     alert("You are Login !");
+// }
+
+// else{
+//     alert("Invalid Information");
+// }
+
+
+
+
+
+// **************************Task 05: Checking for Weekend and Weekday ******************************//
+
+
+// let day = prompt("Enter the Day Here!");
+
+//  if(day=== "saturday" || day=== "sunday"){
+//     alert("It is Weekend!");
+//  }
+
+//  else if (day==="Monday" || day==="wednesday" || day==="Thurday" || day==="Friday" ){
+//     alert("It is the Weekday!");
+//  }
+
+//  else{
+//     alert("Invalid Information");
+//  }
