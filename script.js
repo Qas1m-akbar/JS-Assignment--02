@@ -21,13 +21,29 @@
 // Cheking for Even and odd Numbers//
 
 
-let num = +prompt("Enter the Number you want!")
+// let num = +prompt("Enter the Number you want!")
 
-if(num%2 ==0){
+// if(num%2 ==0){
 
-    alert("Then the Number is Even!");
+//     alert("Then the Number is Even!");
+// }
+
+// else{
+//        alert("The Number is Odd!");
+// }
+
+
+
+
+// Checking day and night//
+
+let timeCheck = +prompt("Enter time for Checking Day and Night");
+
+
+if(!(timeCheck >=7 && timeCheck <19)  ){
+    alert("Then its Night Time!");
 }
 
 else{
-       alert("The Number is Odd!");
+    alert("Then its Day Time!");
 }
